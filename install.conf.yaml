@@ -2,11 +2,9 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ['~', '~/bin']
 
 - link:
-    ~/.tmux.conf: tmux.conf
-    ~/.vim: vim
     ~/.vimrc: vimrc
 
 - create:
