@@ -7,11 +7,12 @@
 - link:
     ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
+    ~/.vim/colors/PaperColor.vim: vim/colors/PaperColor.vim
 
 - create:
     - ~/downloads
     - ~/.vim/undo-history
-    - ~/.vim/pack/default/start
+    - ~/.vim: vim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
