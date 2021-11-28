@@ -6,6 +6,7 @@
 
 - link:
     ~/.vimrc: vimrc
+    ~/.gitconfig: gitconfig
 
 - create:
     - ~/downloads
