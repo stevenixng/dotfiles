@@ -16,3 +16,6 @@
 [submodule "vim/pack/default/start/lightline-ale"]
 	path = vim/pack/default/start/lightline-ale
 	url = git@github.com:maximbaz/lightline-ale.git
+[submodule "vim/pack/default/start/vim-fugitive"]
+	path = vim/pack/default/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
