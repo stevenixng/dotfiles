@@ -7,7 +7,6 @@
 - link:
     ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
-    ~/.vim/colors/PaperColor.vim: vim/colors/PaperColor.vim
 
 - create:
     - ~/downloads
