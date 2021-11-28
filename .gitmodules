@@ -13,3 +13,6 @@
 [submodule "vim/pack/default/start/vim-rainbow"]
 	path = vim/pack/default/start/vim-rainbow
 	url = https://github.com/frazrepo/vim-rainbow
+[submodule "vim/pack/default/start/lightline-ale"]
+	path = vim/pack/default/start/lightline-ale
+	url = git@github.com:maximbaz/lightline-ale.git
