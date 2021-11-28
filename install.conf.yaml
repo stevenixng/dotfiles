@@ -7,11 +7,10 @@
 - link:
     ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
+    ~/.vim: vim
 
 - create:
     - ~/downloads
-    - ~/.vim/undo-history
-    - ~/.vim: vim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
