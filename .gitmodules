@@ -1,3 +1,15 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
+[submodule "vim/pack/default/start/ale"]
+	path = vim/pack/default/start/ale
+	url = https://github.com/dense-analysis/ale
+[submodule "vim/pack/default/start/lightline.vim"]
+	path = vim/pack/default/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "vim/pack/default/start/vim-easymotion"]
+	path = vim/pack/default/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion
+[submodule "vim/pack/default/start/vim-rainbow"]
+	path = vim/pack/default/start/vim-rainbow
+	url = https://github.com/frazrepo/vim-rainbow
