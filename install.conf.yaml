@@ -8,6 +8,7 @@
     ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
     ~/.vim: vim
+    ~/.zshrc: zshrc
 
 - create:
     - ~/downloads
