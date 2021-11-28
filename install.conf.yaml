@@ -9,6 +9,7 @@
     ~/.gitconfig: gitconfig
     ~/.vim: vim
     ~/.zshrc: zshrc
+    ~/.tmux.conf: tmux.conf
 
 - create:
     - ~/downloads
