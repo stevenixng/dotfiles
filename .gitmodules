@@ -19,6 +19,3 @@
 [submodule "vim/pack/default/start/vim-fugitive"]
 	path = vim/pack/default/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "vim/pack/default/start/jedi-vim"]
-	path = vim/pack/default/start/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim
