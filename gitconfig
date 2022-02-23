@@ -1,5 +1,8 @@
 [user]
 	name = Steve Anderson
 	email = stevenix@protonmail.com
+	signingkey = F14DDF42CE6F4818
 [includeIf "gitdir:~/src/numerator/"]
     path = ~/src/numerator/.gitconfig
+[core]
+	excludesfile = /Users/steveanderson/.gitignore
