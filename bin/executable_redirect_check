@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 url=$1
 
 #wget "$1" 2>&1 | grep Location:
 
-curl -s -L -D - "$1" -o /dev/null -w '%{url_effective}'
+curl -s -L -D - "$1" -o /dev/null -w '%{url_effective}'; echo
