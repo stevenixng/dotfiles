@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+
+url=$1
+
+if [ -z "${url}" ]; then
+  echo "You need to provide a url"
+  exit 1
+fi
+
+echo | openssl s_client -showcerts -servername "$url" -connect "$url":443 2>/dev/null | openssl x509 -inform pem -noout -text
