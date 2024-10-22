@@ -8,5 +8,5 @@ brew install ripgrep
 
 {{ else if eq .chezmoi.os "freebsd" -}}
 #!/bin/sh
-doas pkg install neovim git
+sudo pkg install neovim git
 {{ end -}}
