@@ -1,0 +1,7 @@
+Include ~/.ssh/config_home
+Include ~/.ssh/config_work
+Include ~/.ssh/config_cloud
+
+TCPKeepAlive yes
+ServerAliveInterval 20
+ServerAliveCountMax 10
